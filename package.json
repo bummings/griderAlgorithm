@@ -1,22 +1,14 @@
 {
-  "name": "grideralgorithm",
+  "name": "dev",
   "version": "1.0.0",
   "description": "",
-  "main": "anagrams.js",
+  "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/bummings/griderAlgorithm.git"
+  "jest": {
+    "testEnvironment": "node"
   },
   "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/bummings/griderAlgorithm/issues"
-  },
-  "homepage": "https://github.com/bummings/griderAlgorithm#readme",
-  "dependencies": {
-    "jest": "^24.8.0"
-  }
+  "license": "ISC"
 }
